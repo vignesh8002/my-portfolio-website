@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section
       aria-labelledby="hero-headline"
-      className="relative w-full h-auto lg:min-h-[100svh] flex items-center bg-[#050508] overflow-hidden pt-24 sm:pt-28 pb-10 sm:pb-14 lg:py-0"
+      className="relative w-full h-auto lg:min-h-[100svh] flex items-center bg-[#050508] overflow-hidden pt-24 sm:pt-28 pb-4 sm:pb-6 lg:py-0"
     >
       {/* ── ATMOSPHERIC BACKGROUND LIGHTING & WATERMARKS ───────────────────── */}
       {/* Cool blue atmospheric bloom behind the subject */}

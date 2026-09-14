@@ -26,7 +26,7 @@ export default function About() {
     <section
       id="about"
       aria-labelledby="about-heading"
-      className="sp bg-[#050508] border-t border-white/[0.06] relative overflow-hidden"
+      className="pt-10 sm:pt-14 md:pt-36 pb-24 md:pb-36 bg-[#050508] border-t border-white/[0.06] relative overflow-hidden"
     >
       {/* Subtle atmospheric ambient light */}
       <div
