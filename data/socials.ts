@@ -26,8 +26,8 @@ export const socialProfiles: SocialProfile[] = [
   {
     id:         "linkedin",
     name:       "LinkedIn",
-    handle:     "Vignesh-K-ECE",
-    href:       "https://www.linkedin.com/in/Vignesh-K-ECE",
+    handle:     "vignesh-k-ece",
+    href:       "https://www.linkedin.com/in/vignesh-k-ece/",
     isExternal: true,
   },
   {
