@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section
       aria-labelledby="hero-headline"
-      className="relative w-full min-h-[100svh] flex items-center bg-[#050508] overflow-hidden pt-28 sm:pt-32 pb-20 sm:pb-24 lg:py-0"
+      className="relative w-full h-auto lg:min-h-[100svh] flex items-center bg-[#050508] overflow-hidden pt-24 sm:pt-28 pb-10 sm:pb-14 lg:py-0"
     >
       {/* ── ATMOSPHERIC BACKGROUND LIGHTING & WATERMARKS ───────────────────── */}
       {/* Cool blue atmospheric bloom behind the subject */}
@@ -34,12 +34,12 @@ export default function Hero() {
         </span>
       </div>
 
-      <div className="sc w-full py-6 sm:py-8 lg:py-16 relative z-10">
+      <div className="sc w-full py-2 sm:py-4 lg:py-16 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center relative">
           {/* ── LEFT 7 COLS: Editorial Typography & Narrative ─────────────────── */}
           <div className="lg:col-span-7 flex flex-col justify-center order-1 relative z-20">
             {/* Category / Pre-title with subtle pulse indicator */}
-            <div className="flex items-center gap-3 mb-6 sm:mb-7 lg:mb-6 animate-fade-in">
+            <div className="flex items-center gap-3 mb-4 sm:mb-5 lg:mb-6 animate-fade-in">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500" />
@@ -54,20 +54,20 @@ export default function Hero() {
               id="hero-headline"
               className="font-serif font-black leading-[0.98] sm:leading-[0.96] lg:leading-[0.93] tracking-tight text-white
                          text-[clamp(2.65rem,7.5vw,5.75rem)]
-                         mb-7 sm:mb-8 lg:mb-6 animate-slide-up"
+                         mb-5 sm:mb-6 lg:mb-6 animate-slide-up"
               style={{ animationDelay: "0.15s" }}
             >
               Learn<span className="text-blue-500 font-sans">..</span>
               <br />
               Train<span className="text-blue-500 font-sans">..</span>
-              <span className="block mt-3.5 sm:mt-4 lg:mt-3 text-[0.62em] text-gray-300/90 font-normal italic font-serif tracking-normal">
+              <span className="block mt-2.5 sm:mt-3 lg:mt-3 text-[0.62em] text-gray-300/90 font-normal italic font-serif tracking-normal">
                 Ascend the Brain.
               </span>
             </h1>
 
             {/* Description & Reference-inspired Credo */}
             <div
-              className="flex flex-col sm:flex-row sm:items-start gap-6 sm:gap-8 mb-10 sm:mb-12 lg:mb-8 animate-slide-up"
+              className="flex flex-col sm:flex-row sm:items-start gap-6 sm:gap-8 mb-6 sm:mb-8 lg:mb-8 animate-slide-up"
               style={{ animationDelay: "0.3s" }}
             >
               {/* Vertical manifesto element directly drawn from the reference image */}
@@ -89,7 +89,7 @@ export default function Hero() {
 
             {/* Buttons */}
             <div
-              className="flex flex-wrap items-center gap-3.5 sm:gap-4 mb-12 sm:mb-14 lg:mb-10 animate-slide-up relative z-30"
+              className="flex flex-wrap items-center gap-3.5 sm:gap-4 mb-6 sm:mb-8 lg:mb-10 animate-slide-up relative z-30"
               style={{ animationDelay: "0.45s" }}
             >
               <Link
@@ -111,7 +111,7 @@ export default function Hero() {
 
             {/* Social Links Row in Hero */}
             <div
-              className="pt-7 sm:pt-8 lg:pt-6 border-t border-white/[0.08] flex flex-wrap items-center gap-3 sm:gap-4 text-xs animate-fade-in"
+              className="pt-5 sm:pt-6 lg:pt-6 border-t border-white/[0.08] flex flex-wrap items-center gap-3 sm:gap-4 text-xs animate-fade-in"
               style={{ animationDelay: "0.6s" }}
             >
               <span className="text-gray-500 uppercase tracking-widest text-[10px] font-semibold">
@@ -149,7 +149,7 @@ export default function Hero() {
           </div>
 
           {/* ── RIGHT 5 COLS: Portrait Emerging from Atmosphere (NO BOX) ────── */}
-          <div className="absolute top-6 sm:top-10 right-0 w-[58vw] sm:w-[46vw] max-w-[270px] sm:max-w-[350px] aspect-[4/5] sm:aspect-[1/1] pointer-events-none z-10 lg:pointer-events-auto lg:static lg:col-span-5 lg:w-full lg:max-w-none lg:aspect-auto lg:flex lg:justify-end lg:items-center lg:order-2 lg:z-10">
+          <div className="absolute top-1 sm:top-4 right-0 w-[58vw] sm:w-[46vw] max-w-[270px] sm:max-w-[350px] aspect-[4/5] sm:aspect-[1/1] pointer-events-none z-10 lg:pointer-events-auto lg:static lg:col-span-5 lg:w-full lg:max-w-none lg:aspect-auto lg:flex lg:justify-end lg:items-center lg:order-2 lg:z-10">
             <div
               className="relative w-full h-full max-w-lg lg:max-w-xl aspect-[4/5] sm:aspect-[1/1] lg:aspect-[4/5] flex items-center justify-center animate-fade-in"
               style={{ animationDelay: "0.2s" }}
